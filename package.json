@@ -1,0 +1,20 @@
+{
+  "name": "couchbase-test",
+  "version": "1.0.0",
+  "description": "This is the test project to perform working with CouchbaseDB",
+  "main": "index.js",
+  "scripts": {
+    "build": "node fillCouchbase.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@webdev-git.czupc.bistudio.com:khvannel/couchbase-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "couchbase": "^3.0.7",
+    "express": "^4.17.1"
+  }
+}

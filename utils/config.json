@@ -1,0 +1,32 @@
+{
+    "couchbase": {
+        "endPoint": "localhost:8091",
+        "n1qlService": "localhost:8093",
+        "ftsService": "localhost:8094",
+        "hostName": "127.0.0.1",
+        "bucket": "couchbase",
+        "user": "Administrator",
+        "password": "password",
+        "dataPath": "",
+        "indexPath": "",
+        "indexType": "gsi",
+        "indexerStorageMode":"forestdb",
+        "showQuery": false,
+        "indexMemQuota": 2048,
+        "dataMemQuota": 1024,
+        "ftsMemoryQuota":1024,
+        "thresholdItemCount": 31565,
+    },
+    "application": {
+        "autoprovision": true,
+        "hostName": "localhost",
+        "httpPort": 3000,
+        "dataSource": "embedded",
+        "wait": 3000,
+        "checkInterval": 1000,
+        "verbose": false,
+        "distanceCostMultiplier": 0.1,
+        "avgKmHr": 800,
+        "hashToken": "UNSECURE_SECRET_TOKEN"
+    }
+}
